@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    tools:context="com.example.ikhsanlaisa.asyntask.MenuActivity">
+
+    <TextView
+        android:id="@+id/menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose what is you looking for"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <Button
+        android:id="@+id/cari_nama"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Cari Nama"/>
+
+    <Button
+        android:id="@+id/cari_gambar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Cari Gambar"/>
+
+</LinearLayout>
